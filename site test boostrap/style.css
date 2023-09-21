@@ -1,0 +1,89 @@
+#top-options{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.text1{
+    margin-bottom: 5px;
+    font-family: 'open-sans';
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#cubo{
+    border-top: white solid 5px;
+    color: #0669de;
+}
+#C1{
+    border-top: white solid 5px;
+    color: #c4170c;
+}
+#Ce{
+    border-top: white solid 5px;
+    color: #06aa48;
+}
+#Cshow{
+    border-top: white solid 5px;
+    color: #ff6700;
+}
+#Cuboplay{
+    border-top: white solid 5px;
+    color: #ee2033;
+}
+#o-cubo{
+    border-top: white solid 5px;
+    color: #1e4cb1;
+}
+#cubo:hover{
+    border-top: #0669de solid 5px;
+}
+#C1:hover{
+    border-top: #c4170c solid 5px;
+}
+#Ce:hover{
+    border-top: #06aa48 solid 5px;
+}
+#Cshow:hover{
+    border-top:  #ff6700 solid 5px;
+}
+#Cuboplay:hover{
+    border-top: #ee2033 solid 5px;
+}
+#o-cubo:hover{
+    border-top: #1e4cb1 solid 5px;
+}
+.logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 35pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra-cubo{
+    background-color: #0669de;
+}
+.menu-button{
+    color: white;
+    font-weight: bolder;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex{
+    align-items: center;
+    background-color: #0669de;
+}
+.pesquisa{
+    background-color: #0669de;
+}
+.bg-body-tertiary{
+    background-color: #0669de!important;
+}
+@font-face {
+    font-family: open-sans;
+    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
